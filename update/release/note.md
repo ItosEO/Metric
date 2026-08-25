@@ -1,6 +1,5 @@
 ## 变更
 
-- 修复 OriginOS 部分情况下超分无法正确记录
-- 优化帧率记录中系统功能记录的样式
-- 完善 OriginOS 上的小窗判定
-- 一些无关紧要的调整
+- 修复 ColorOS 上，帧率记录系统功能运行状态采集导致卡顿
+- 进程记录的通知控制接入 ColorOS 流体云
+- Due to regulatory requirements, the USDT payment channel has been removed.
