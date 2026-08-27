@@ -1,5 +1,7 @@
 ## 变更
 
-- 修复 ColorOS 上，帧率记录系统功能运行状态采集导致卡顿
-- 进程记录的通知控制接入 ColorOS 流体云
-- Due to regulatory requirements, the USDT payment channel has been removed.
+- 优化开放源代码依赖扫描逻辑，解决部分依赖遗漏问题
+- 解决开启实时通知后，ColorOS 上一直弹无障碍检测（神人 OPPO 白名单加 scene 不加我）
+- 优化国内网络环境加速策略
+- 新增历史更新日志页面（设置-关于软件-更新日志）
+- 一些无关紧要的更新
