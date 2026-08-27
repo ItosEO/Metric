@@ -1,0 +1,202 @@
+[
+  {
+    "versionName": "v1.2.3-release",
+    "versionCode": 744,
+    "publishedAt": "2026-08-25T15:26:54Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 修复 ColorOS 上，帧率记录系统功能运行状态采集导致卡顿\n- 进程记录的通知控制接入 ColorOS 流体云\n- Due to regulatory requirements, the USDT payment channel has been removed.",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.2.3-release"
+  },
+  {
+    "versionName": "v1.2.2-release",
+    "versionCode": 739,
+    "publishedAt": "2026-08-24T16:25:20Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 修复 OriginOS 部分情况下超分无法正确记录\n- 优化帧率记录中系统功能记录的样式\n- 完善 OriginOS 上的小窗判定\n- 一些无关紧要的调整",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.2.2-release"
+  },
+  {
+    "versionName": "v1.2.1-release",
+    "versionCode": 735,
+    "publishedAt": "2026-08-24T10:41:17Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 修复 1.2.0 中一个脑残错误导致的 OriginOS 功能记录失效\n- 尝试优化软件体积\n- 新增软件备案号悬挂\n- 帧率记录新增 ColorOS/OxygenOS/RealmeUI 的超级帧率、超分辨率、超频响应、HDR状态记录\n- 帧率记录新增 OriginOS 的超级帧率、超分辨率、超感触控状态记录\n- 优化数据库后台维护策略\n- 升级软件依赖\n- 优化日志策略\n- 优化部分异常处理机制\n- 修复三段式导航下液态玻璃底栏为正确避让",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.2.1-release"
+  },
+  {
+    "versionName": "v1.2.0-release",
+    "versionCode": 732,
+    "publishedAt": "2026-08-23T14:23:45Z",
+    "channel": "release",
+    "note": "## 变更\r\n\r\n- 新增软件备案号悬挂\r\n- 帧率记录新增 ColorOS/OxygenOS/RealmeUI 的超级帧率、超分辨率、超频响应、HDR状态记录\r\n- 帧率记录新增 OriginOS 的超级帧率、超分辨率、超感触控状态记录\r\n- 优化数据库后台维护策略\r\n- 升级软件依赖\r\n- 优化日志策略\r\n- 优化部分异常处理机制\r\n- 修复三段式导航下液态玻璃底栏未正确避让",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.2.0-release"
+  },
+  {
+    "versionName": "v1.1.3-release",
+    "versionCode": 722,
+    "publishedAt": "2026-08-17T17:38:19Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 优化进程管理-安卓应用应用项展开后的 UI 样式\n- 优化进程管理-安卓应用应用项展开时的动画效果\n- 新增帧率记录时采集 Perfetto Trace\n- 修复部分系统设置 zram 失败",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.1.3-release"
+  },
+  {
+    "versionName": "v1.1.2-release",
+    "versionCode": 717,
+    "publishedAt": "2026-08-17T07:52:22Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 将 Perfetto Trace 容量上限从 512 MB 提升至 10 GB\n- 进程管理详情页新增 PSS、用户组 数据\n- 进程管理新增 App 所属 User 显示\n- 进程管理-杀死安卓应用支持按 User 操作\n- 调整超凡先锋的线程分配逻辑（需开启自适应分配）",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.1.2-release"
+  },
+  {
+    "versionName": "v1.1.1-release",
+    "versionCode": 713,
+    "publishedAt": "2026-08-16T17:37:26Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 调整帧率获取，移除小数（打开精确采样后，会显示小数）\n- 修复滑动选点状态下长截图显示异常\n- 优化线程分配方案：\n  Roblox、超凡先锋\n- 新增线程分配方案：\n  Kingdom Two Crowns\n  CloverPit\n  失控进化\n  ZenlessZoneZero\n  Milthm\n  遗忘之海\n  アストラルパーティー\n  ShadowverseWB",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.1.1-release"
+  },
+  {
+    "versionName": "v1.1.0-release",
+    "versionCode": 708,
+    "publishedAt": "2026-08-15T18:18:24Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 修复停止服务后实时通知仍然存在的问题\n- 优化部分代码逻辑\n- 调整部分功能策略\n- 修复内存泄露补丁在 RealmeUI / OxygenOS 不生效问题\n- 重构实时通知实现\n- 修复打开快捷悬浮窗管理器时，画中画被缩小\n- 优化快捷悬浮窗管理器的进入和退出动画\n- 实时通知新增电池功耗显示",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.1.0-release"
+  },
+  {
+    "versionName": "v1.0.10-release",
+    "versionCode": 698,
+    "publishedAt": "2026-08-13T17:23:34Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 更新 ADB 激活命令，现在更新版本后不需要换命令了\n- 优化 Daemon 初始化逻辑\n- 修复 ColorOS 上的一个内存泄露问题\n- 修复部分场景下，HyperOS 和 OriginOS 通知崩溃问题\n- 优化稳帧指数的描述\n- 修复前台应用获取异常",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.10-release"
+  },
+  {
+    "versionName": "v1.0.9-release",
+    "versionCode": 697,
+    "publishedAt": "2026-08-13T14:06:20Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 更新 ADB 激活命令，现在更新版本后不需要换命令了\n- 优化 Daemon 初始化逻辑\n- 修复 ColorOS 上的一个内存泄露问题\n- 修复部分场景下，HyperOS 和 OriginOS 通知崩溃问题\n- 优化稳帧指数的描述\n- 修复前台应用获取异常",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.9-release"
+  },
+  {
+    "versionName": "v1.0.7-release",
+    "versionCode": 686,
+    "publishedAt": "2026-08-12T09:46:13Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 修复帧率记录悬浮窗的一个逻辑问题\n- 优化部分机制\n- 修复线程放置回读失败\n- 优化进程管理-安卓应用的应用冻结情况显示\n- 优化 Gradle 构建脚本与构建性能配置\n- 优化部分界面的 UI 样式\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.7-release"
+  },
+  {
+    "versionName": "v1.0.6-release",
+    "versionCode": 678,
+    "publishedAt": "2026-08-04T01:49:56Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 优化 FPS 悬浮窗展开和收起时的流畅度\n- 修复精确记录下的进程记录中线程详情图标滑动选点异常\n- 修复进程记录详情页的一处 UI 问题\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.6-release"
+  },
+  {
+    "versionName": "v1.0.5-release",
+    "versionCode": 674,
+    "publishedAt": "2026-08-02T06:10:01Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 优化实时通知，新增分组\n- 修复部分情况下截图异常\n- 重构项目代码\n- 修复部分情况下无法正常检测更新\n- 修复 1.0.4 无法正常启动服务\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.5-release"
+  },
+  {
+    "versionName": "v1.0.4-release",
+    "versionCode": 673,
+    "publishedAt": "2026-08-01T18:25:40Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 优化实时通知，新增分组\n- 修复部分情况下截图异常\n- 重构项目代码\n- 修复部分情况下无法正常检测更新\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.4-release"
+  },
+  {
+    "versionName": "v1.0.3-release",
+    "versionCode": 669,
+    "publishedAt": "2026-07-29T08:44:30Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 完全重构 App Module 项目架构，可能会存在一些 Bug，欢迎反馈\n\n- 新增稳帧指数指标\n- 优化数据获取链路\n- 优化平板布局及横屏布局\n- 为 ColorOS 相关设备开启 Trace 采集添加风险提示\n- 新增 MT8799 SOC 商品名获取\n- 新增长截图提示\n- 修复部分情况下长记录截图图表样式异常\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.3-release"
+  },
+  {
+    "versionName": "v1.0.2-release",
+    "versionCode": 659,
+    "publishedAt": "2026-07-25T04:21:49Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 优化记录详情页滑动选点 Tooltip 的流畅度\n- 优化长截图的生成逻辑\n- 新增悬浮窗模糊开关（主题设置）\n- 列表项删除新增二次确认\n- 新增平板/横屏布局\n- 横屏隐藏状态栏\n- 帧率曲线 jank 点联动 jank 数据的显隐\n- 优化 App 和 Helper 的保活配置\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.2-release"
+  },
+  {
+    "versionName": "v1.0.1-release",
+    "versionCode": 650,
+    "publishedAt": "2026-07-24T09:21:16Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 帧率记录详情新增滑动选点 Tooltip\n- 调整关于页检查更新和版本号的样式\n- 继续优化 Jank 算法\n- 适配公平内存机制\n- FPS 曲线新增 Jank 点显示\n- 修复部分情况下进程采样数据流生命周期异常\n- 修复部分情况下 device ID 获取异常\n- 修复部分情况下无法正常获取更新\n- 补充部分文案的国际化\n- 进程列表-安卓应用新增墓碑冻结情况显示\n- 优化进程列表-安卓应用展开时的数据更新\n- 优化进程列表-安卓应用展开时收起按钮点击区域\n- 修复部分情况下帧率采样异常\n- 修复部分设备的帧率悬浮窗显示被截断\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.0.1-release"
+  },
+  {
+    "versionName": "v0.6.2-release",
+    "versionCode": 638,
+    "publishedAt": "2026-07-22T11:09:15Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 重写 Jank 算法，使其更符合体感，并新增 Small Jank 维度\n\n- 优化记录详情页 CPU Frequency 图表样式\n- 修复进程记录 cgroup 时间轴选中区域概率出现边框消失的问题\n- 帧率记录新增 帧能耗 和 卡顿率(Stutter) 维度\n- 新增 CPU Usage(Normalized) 指标，旨在更真实反映性能消耗\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.6.2-release"
+  },
+  {
+    "versionName": "v0.6.1-release",
+    "versionCode": 632,
+    "publishedAt": "2026-07-21T16:47:50Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 进程记录详情新增平均 PSS\n- 帧率记录新增滑动选点 Tooltip\n- 修复低温下温度异常，并支持负温显示\n- 修复帧率记录概率帧率为 0\n- 进程记录 cgroup 信息改为时间轴，更清晰",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.6.1-release"
+  },
+  {
+    "versionName": "v0.6.0-release",
+    "versionCode": 624,
+    "publishedAt": "2026-07-19T12:54:11Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 新增部分数据库损坏自动修复\n- 美化用户界面\n- 新增“纯色模式”主题设置\n- 修复部分情况下软件崩溃\n- 线程记录支持长按复制线程名\n- 优化悬浮窗权限授权\n- 新增进程记录功能\n- 优化超凡先锋的线程分配方案\n- 修复CPU核心开关后 cycles 记录为 0\n- 修复悬浮窗两个选项概率失效",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.6.0-release"
+  },
+  {
+    "versionName": "v0.5.1-release",
+    "versionCode": 606,
+    "publishedAt": "2026-07-11T18:32:46Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- Se ha añadido la traducción al español.\n- 新增西班牙语翻译\n- 新增线程分配黑名单\n- 优化 FPS 详情页 CPU 负载图表的视觉呈现\n- 重构日志系统\n- 修复 2+6 平台英雄联盟(迁移)线程分配异常",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.5.1-release"
+  },
+  {
+    "versionName": "v0.5.0-release",
+    "versionCode": 599,
+    "publishedAt": "2026-07-11T04:08:46Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 新增帧率记录云备份功能（只支持单设备，适用于降级、刷机等情况）\n- 调整设置项文本样式，更美观\n- 修复菜单重复弹出的问题\n- 调整部分组件设计\n- 性能调节-MTK专属新增 FBT ceiling 控制\n- 优化和平精英的线程分配\n- 适配 超凡先锋 线程分配\n- 新增部分地方的用户提示\n- 新增 Snapdragon 专属 Bus DCVS 性能调控功能\n- 重构部分代码逻辑\n- 优化小米系设备的系统版本获取\n- 优化 vivo 系设备的系统版本获取\n- 优化会员验证判断\n- 修复部分异常处理边界问题\n- 修复 Helper 安装可能出现的一个问题\n- 修复一个潜在的 Loop 点",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.5.0-release"
+  },
+  {
+    "versionName": "v0.4.5-release",
+    "versionCode": 577,
+    "publishedAt": "2026-07-08T09:14:02Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 优化部分实现\n- 迷你监视器 CPU 负载状图支持实时显示 IPC（颜色）\n- 调整 IPC/Cycles 热力图的一些细节\n- 新增 vm 参数调整\n- 修复自动校准提示状态异常\n- 支持自定义主题色彩风格与 Material 色彩标准\n- 优化应用更新下载与安装流程",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.4.5-release"
+  },
+  {
+    "versionName": "v0.4.4-release",
+    "versionCode": 568,
+    "publishedAt": "2026-07-08T04:41:15Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 0.4.2 及以前的务必更新，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 修复一个潜在的 OOM 问题\n- 新增支付信息查询\n- 优化部分内部实现逻辑\n- 优化 iQOO 设备的设备型号获取",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.4.4-release"
+  },
+  {
+    "versionName": "v0.4.3-release",
+    "versionCode": 552,
+    "publishedAt": "2026-07-07T05:20:54Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 务必更新此版本，激活会员也务必更新此版本，否则会员状态可能丢失\n\n> 更新版本后，请点击 曾购买过会员 重新激活\n\n- 修复shell激活的情况下，点击通知无法弹出快捷悬浮窗管理器\n- 优化记录占用空间大小\n- 帧率记录支持按 APP 过滤\n- 优化一些内部实现",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v0.4.3-release"
+  }
+]
