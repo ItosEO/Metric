@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.4.1-release",
+    "versionCode": 785,
+    "publishedAt": "2026-09-08T00:38:53Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 优化长截图耗时，现在更快了\n- 修复部分系统无法获取应用列表\n- 优化一些 UI 设计\n- 新增顶部标题栏渐进模糊\n- 新增应用管理功能（感谢 LibChecker 开源）\n- 适配横屏状态下的 Material 侧边导航栏\n- 优化平板设备上线程分配游戏库的显示效果\n- 优化平板设备上首页的显示效果\n- 修复部分系统上无法获取前台服务权限导致的应用崩溃\n- 一些无感的代码优化\n\n> 应用管理中的应用操作功能可能出现不可用，请反馈",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.4.1-release"
+  },
+  {
     "versionName": "v1.4.0-release",
     "versionCode": 781,
     "publishedAt": "2026-09-07T15:53:00Z",
