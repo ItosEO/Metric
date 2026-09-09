@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.4.3-release",
+    "versionCode": 812,
+    "publishedAt": "2026-09-09T08:07:49Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 帧率、进程记录列表滑动删除新增融球效果\n- 应用管理新增找回应用功能\n- 帧率、进程记录新增保存记录时的系统版本号\n- 大屏设备下应用管理引入双窗布局\n- 修复全新预测性返回动画部分场景下异常\n- 适配 16 KB 对齐\n- 优化大陆更新加速\n- 优化一些内部逻辑\n\n> 我们可能在不久的将来停止对 Android12/12.1 的支持\n\n> 可以看看历史更新日志哦，最近更新比较多",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.4.3-release"
+  },
+  {
     "versionName": "v1.4.2-release",
     "versionCode": 797,
     "publishedAt": "2026-09-08T07:36:07Z",
