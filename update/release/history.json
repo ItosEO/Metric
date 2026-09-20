@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.5.3-release",
+    "versionCode": 839,
+    "publishedAt": "2026-09-20T11:38:19Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 继续优化菜单的弹出效果\n- 调整部分提示文本内容\n- 支持单独删除帧率与进程记录的 Trace 文件\n- 新增针对部分开挂用户的提示（改序列号掉会员还来找我恢复）\n- 帧率、进程记录新增上次打开记录的指示器\n- 一些细微调整\n\n> 近期软件快速更新，建议您前往设置-关于软件-更新日志查看近期更新内容\n\n> 我们可能在不久的将来停止对 Android12/12.1 的支持",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.5.3-release"
+  },
+  {
     "versionName": "v1.5.2-release",
     "versionCode": 832,
     "publishedAt": "2026-09-20T03:20:26Z",
