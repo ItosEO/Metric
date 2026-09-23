@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.5.5-release",
+    "versionCode": 854,
+    "publishedAt": "2026-09-23T17:32:36Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 优化记录图标绘制性能\n- 大幅优化顶栏模糊效果\n- 优化菜单的滑动选择震动效果\n- 修复在 HyperOS 的部分联发科机型上由于 OEM 代码**不处理空指针异常随意抛出**导致的应用列表获取图标失败的问题\n- 统一帧率与进程详情页面的图表卡片间距\n- 优化 IPC/Cycles 热力图显示样式\n\n> 近期软件快速更新，建议您前往设置-关于软件-更新日志查看近期更新内容\n\n> 我们可能在不久的将来停止对 Android12/12.1 的支持",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.5.5-release"
+  },
+  {
     "versionName": "v1.5.4-release",
     "versionCode": 846,
     "publishedAt": "2026-09-22T03:14:04Z",
