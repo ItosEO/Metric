@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.6.0-release",
+    "versionCode": 862,
+    "publishedAt": "2026-09-26T14:27:01Z",
+    "channel": "release",
+    "note": "## 变更\n\n- 新增 应用管理-SharedPreferences 编辑\n- 优化长截图策略，限制 30 个线程，防止 OOM\n- 优化 GPU 信息获取机制\n\n> 近期软件快速更新，建议您前往设置-关于软件-更新日志查看近期更新内容\n\n> 我们可能在不久的将来停止对 Android12/12.1 的支持",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.6.0-release"
+  },
+  {
     "versionName": "v1.5.7-release",
     "versionCode": 858,
     "publishedAt": "2026-09-25T13:14:23Z",
