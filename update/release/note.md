@@ -1,12 +1,23 @@
 ## 变更
 
-> 建议更新，您可以前往设置-关于软件-更新日志查看近期更新内容
+> 本次更新带来了大量内部服务的实现改进，强烈建议更新
 
-- 新增 HyperOS 超分、插帧记录
-- 优化骁龙 8Gen5 的日用线程分配策略
-- 优化一些内部实现
-- 优化邀请机制
-- 修复部分场景下应用列表查询失败
-- 修复部分 OPlus 设备上 LTPO 状态获取失败
+- 优化大量内部实现
+- 优化帧率进程记录的 Tooltip 样式与可读性
+- 新增英文更新日志
+- 优化负载监视器的对于超过 1GHz GPU 频率的显示效果
 
 > 我们可能在不久的将来停止对 Android12/12.1 的支持
+
+---
+
+## Changes
+
+> Update recommended. You can go to Settings - About - Changelog to view recent updates.
+
+- Optimized a large number of internal implementations.
+- Optimized the Tooltip style and readability of frame rate process records.
+- Added English changelog
+- Optimize the load monitor's display effect for GPU frequencies exceeding 1GHz.
+
+> We may stop supporting Android 12/12.1 in the near future.
