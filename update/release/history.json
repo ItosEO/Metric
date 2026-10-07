@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.8.1-release",
+    "versionCode": 927,
+    "publishedAt": "2026-10-07T04:58:19Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 本次更新带来了大量内部服务的实现改进，强烈建议更新\n\n- 新增性能调控-ColorOS 专属-动画等级调节\n- 适配繁体中文\n- 调整一些默认设置\n- 优化温度监视器样式\n- 优化帧率、进程记录的 Tooltip 样式与可读性\n- 优化图表数据更新时的渲染过渡体验\n- 添加少量日志\n\n> 我们可能在不久的将来停止对 Android12/12.1 的支持\n\n---\n\n## Changes\n\n> Update recommended. You can go to Settings - About - Changelog to view recent updates.\n\n- Added Performance Tuning - ColorOS Exclusive - Animation Level Adjustment\n- Adapted Traditional Chinese\n- Adjusted some default settings\n- Optimized temperature monitor style\n- Optimized Tooltip style and readability for frame rate and process records\n- Optimized rendering transition experience when chart data updates\n- Added a small amount of logging\n\n> We may stop supporting Android 12/12.1 in the near future.",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.8.1-release"
+  },
+  {
     "versionName": "v1.8.0-release",
     "versionCode": 919,
     "publishedAt": "2026-10-06T17:10:27Z",
