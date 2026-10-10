@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v1.9.0-prerelease1",
+    "versionCode": 946,
+    "publishedAt": "2026-10-10T10:00:53Z",
+    "channel": "prerelease",
+    "note": "## 变更\n\n> 此版本为预览版，如遇问题请及时通过 TG、邮件、QQ 等方式联系作者反馈\n\n- 新增筛选过滤帧率记录中的 加载、转场、菜单 等场景\n- 优化帧率获取算法，提高数据准确性\n- 优化一些内部实现\n\n---\n\n## Changes\n\n> This is a preview version. If you encounter any issues, please contact the author via TG, email, QQ, etc. to provide feedback.\n\n- Added filtering for scenarios such as loading, transitions, and menus in frame rate records\n- Optimized the frame rate acquisition algorithm to improve data accuracy\n- Optimized some internal implementations",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v1.9.0-prerelease1"
+  },
+  {
     "versionName": "v1.8.1-prerelease1",
     "versionCode": 924,
     "publishedAt": "2026-10-07T04:08:29Z",
