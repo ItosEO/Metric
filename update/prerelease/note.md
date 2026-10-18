@@ -2,12 +2,16 @@
 
 > 此版本为预览版，如遇问题请及时通过 TG、邮件、QQ 等方式联系作者反馈
 
-- 新增 COUI 17 底栏样式
-- 新增主页快速进入进程管理搜索（COUI）
-- 新增更方便的悬浮窗管理器入口（COUI）
-- 优化菜单组件交互效果
-- 修复部分场景下小概率出现首页卡片不显示的问题
-- 修复帧率采样偏低的问题
+- 优化关闭流光轮廓下的 COUI 底栏、FAB 效果
+- 优化菜单轮廓光样式
+- 优化菜单阴影样式
+- 优化 FAB 阴影样式
+- 优化 COUI 底栏阴影样式
+- 优化 COUI 底栏样式
+- 优化顶栏渐进模糊采样，更细腻自然
+- 尝试优化高压力下免 Root 读取 GPU 失效
+- 修复部分情况下 COUI 底栏阴影丢失
+- 移除 MemoryInfo 页用于测试的 FAB
 
 ---
 
@@ -15,7 +19,13 @@
 
 > This is a preview version. If you encounter any issues, please contact the author via TG, email, QQ, etc. to provide feedback.
 
-- Re-added the decimal point in frame rate logging
-- Fixed frame rate logging filter being unavailable
-- Optimized thread allocation strategy for the 8Gen5 platform
-- Added a user experience improvement program
+- Optimized the COUI bottom bar and FAB effects when the flowing light outline is disabled
+- Optimized the menu outline light style
+- Optimized the menu shadow style
+- Optimized the FAB shadow style
+- Optimized the COUI bottom bar shadow style
+- Optimized the COUI bottom bar style
+- Optimized the top bar progressive blur sampling for a more refined and natural effect
+- Attempted to fix the failure of root-free GPU reading under high pressure
+- Fixed the loss of the COUI bottom bar shadow in some cases
+- Removed the FAB used for testing on the MemoryInfo page
