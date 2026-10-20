@@ -2,16 +2,22 @@
 
 > 此版本为预览版，如遇问题请及时通过 TG、邮件、QQ 等方式联系作者反馈
 
-- 优化关闭流光轮廓下的 COUI 底栏、FAB 效果
-- 优化菜单轮廓光样式
-- 优化菜单阴影样式
-- 优化 FAB 阴影样式
-- 优化 COUI 底栏阴影样式
-- 优化 COUI 底栏样式
-- 优化顶栏渐进模糊采样，更细腻自然
-- 尝试优化高压力下免 Root 读取 GPU 失效
-- 修复部分情况下 COUI 底栏阴影丢失
-- 移除 MemoryInfo 页用于测试的 FAB
+- 修复 COUI 底栏下一个潜在的崩溃问题
+- 修复悬浮窗拖拽超出边界后位移行程异常
+- 修复 Material 搜索框底部显示不完整的问题
+- 新增悬浮窗的点触光效
+- 新增 Shizuku 激活服务
+- 新增 COUI 顶栏按钮
+- 新增 COUI 顶栏搜索框
+- 新增主题设置-更多 COUI 选项
+- 新增帧率记录未过滤时的提示文本
+- 适配悬浮窗 G2 圆角
+- 优化悬浮窗拖拽范围
+- 优化悬浮窗流光轮廓效果
+- 优化 Material 底栏样式
+- 优化顶栏返回按钮可读性
+- 优化顶栏渐进模糊效果
+- 优化纯色模式
 
 ---
 
@@ -19,13 +25,11 @@
 
 > This is a preview version. If you encounter any issues, please contact the author via TG, email, QQ, etc. to provide feedback.
 
-- Optimized the COUI bottom bar and FAB effects when the flowing light outline is disabled
-- Optimized the menu outline light style
-- Optimized the menu shadow style
-- Optimized the FAB shadow style
-- Optimized the COUI bottom bar shadow style
-- Optimized the COUI bottom bar style
-- Optimized the top bar progressive blur sampling for a more refined and natural effect
-- Attempted to fix the failure of root-free GPU reading under high pressure
-- Fixed the loss of the COUI bottom bar shadow in some cases
-- Removed the FAB used for testing on the MemoryInfo page
+- Fixed a potential crash issue in the COUI bottom bar
+- Fixed abnormal displacement travel after the floating window is dragged beyond the boundary
+- Added a tap light effect for the floating window
+- Added the Shizuku activation service
+- Adapted the floating window to G2 rounded corners
+- Optimized the drag range of the floating window
+- Optimized the flowing light outline effect of the floating window
+- Optimized the Material bottom bar style
