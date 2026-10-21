@@ -2,22 +2,16 @@
 
 > 此版本为预览版，如遇问题请及时通过 TG、邮件、QQ 等方式联系作者反馈
 
-- 修复 COUI 底栏下一个潜在的崩溃问题
-- 修复悬浮窗拖拽超出边界后位移行程异常
-- 修复 Material 搜索框底部显示不完整的问题
-- 新增悬浮窗的点触光效
-- 新增 Shizuku 激活服务
-- 新增 COUI 顶栏按钮
-- 新增 COUI 顶栏搜索框
-- 新增主题设置-更多 COUI 选项
-- 新增帧率记录未过滤时的提示文本
-- 适配悬浮窗 G2 圆角
-- 优化悬浮窗拖拽范围
-- 优化悬浮窗流光轮廓效果
-- 优化 Material 底栏样式
-- 优化顶栏返回按钮可读性
-- 优化顶栏渐进模糊效果
-- 优化纯色模式
+- 优化顶栏图标的显示效果与标题文字效果
+- 优化绝区零加载场景过滤算法
+- 优化其他游戏加载场景过滤算法
+- 优化多选框样式
+- 优化开关样式
+- 优化 LiquidGlass 底栏样式
+- 新增 COUI 滑动选择条
+- 新增性能调控显示实时 CPU 频率
+- 移除规范化 CPU Usage 开关，现仅在记录中使用
+- 重构 UI 组件框架
 
 ---
 
@@ -25,11 +19,13 @@
 
 > This is a preview version. If you encounter any issues, please contact the author via TG, email, QQ, etc. to provide feedback.
 
-- Fixed a potential crash issue in the COUI bottom bar
-- Fixed abnormal displacement travel after the floating window is dragged beyond the boundary
-- Added a tap light effect for the floating window
-- Added the Shizuku activation service
-- Adapted the floating window to G2 rounded corners
-- Optimized the drag range of the floating window
-- Optimized the flowing light outline effect of the floating window
-- Optimized the Material bottom bar style
+- Optimize the display effect of top bar icons and title text effect
+- Optimize the Zenless Zone Zero loading scene filtering algorithm
+- Optimize loading scene filtering algorithms for other games
+- Optimize checkbox styles
+- Optimize switch styles
+- Optimize LiquidGlass bottom bar styles
+- Add COUI sliding selection bar
+- Add real-time CPU frequency display in performance tuning
+- Remove the normalized CPU Usage switch; it is now only used in logging
+- Refactor the UI component framework

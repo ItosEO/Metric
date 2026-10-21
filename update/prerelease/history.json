@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.0.0-prerelease2",
+    "versionCode": 1011,
+    "publishedAt": "2026-10-21T11:03:34Z",
+    "channel": "prerelease",
+    "note": "## 变更\n\n> 此版本为预览版，如遇问题请及时通过 TG、邮件、QQ 等方式联系作者反馈\n\n- 优化顶栏图标的显示效果与标题文字效果\n- 优化绝区零加载场景过滤算法\n- 优化其他游戏加载场景过滤算法\n- 优化多选框样式\n- 优化开关样式\n- 优化 LiquidGlass 底栏样式\n- 新增 COUI 滑动选择条\n- 新增性能调控显示实时 CPU 频率\n- 移除规范化 CPU Usage 开关，现仅在记录中使用\n- 重构 UI 组件框架\n\n---\n\n## Changes\n\n> This is a preview version. If you encounter any issues, please contact the author via TG, email, QQ, etc. to provide feedback.\n\n- Optimize the display effect of top bar icons and title text effect\n- Optimize the Zenless Zone Zero loading scene filtering algorithm\n- Optimize loading scene filtering algorithms for other games\n- Optimize checkbox styles\n- Optimize switch styles\n- Optimize LiquidGlass bottom bar styles\n- Add COUI sliding selection bar\n- Add real-time CPU frequency display in performance tuning\n- Remove the normalized CPU Usage switch; it is now only used in logging\n- Refactor the UI component framework",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.0.0-prerelease2"
+  },
+  {
     "versionName": "v2.0.0-prerelease1",
     "versionCode": 998,
     "publishedAt": "2026-10-20T16:31:01Z",
