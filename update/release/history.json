@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.1.1-release",
+    "versionCode": 1084,
+    "publishedAt": "2026-11-05T16:28:10Z",
+    "channel": "release",
+    "note": "## 变更\n\n### 性能\n- 优化切换进程管理页掉帧情况\n\n### 外观\n- 优化顶栏效果\n- 优化界面手感，更 Q 弹\n\n### 其他\n- 适配 ColorOS 深色图标\n- 优化 Metric Pro 页面逻辑\n- 优化日志输出\n\n---\n\n## Changes\n\n### Performance\n- Optimized frame drops when switching to the process management page\n\n### Appearance\n- Optimized top bar effects\n- Optimized interface feel, more bouncy (Q-elastic)\n\n### Other\n- Adapted to ColorOS dark icons\n- Adapted to membership purchase channels outside mainland China\n- Optimized Metric Pro page logic\n- Optimized log output\n\n> We may stop supporting Android 12/12.1 in the near future.",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.1.1-release"
+  },
+  {
     "versionName": "v2.1.0-release",
     "versionCode": 1069,
     "publishedAt": "2026-11-03T15:58:25Z",
