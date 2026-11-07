@@ -1,32 +1,28 @@
 ## 变更
 
-### 性能
-- 优化切换进程管理页掉帧情况
+### 帧率/进程记录
+- 修复图表滑动选点异常
+- 限制线程长截图最多 15 个
 
-### 外观
-- 优化顶栏效果
-- 优化界面手感，更 Q 弹
+### 应用管理
+- 优化 UI 样式、交互及动画
+- 优化 Dex2oat 逻辑和界面
+- 新增多选状态下的搜索按钮
+- 新增批量 Dex2oat 优化
 
 ### 其他
-- 适配 ColorOS 深色图标
-- 优化 Metric Pro 页面逻辑
-- 优化日志输出
+- 修复深色模式下主题设置图标预览误加载 Night 资源
+- 优化异常 SN 判断
 
 ---
 
 ## Changes
 
-### Performance
-- Optimized frame drops when switching to the process management page
-
-### Appearance
-- Optimized top bar effects
-- Optimized interface feel, more bouncy (Q-elastic)
+### Frame Rate/Process Recording
+- Fixed abnormal point selection when sliding the chart
+- Limited thread long screenshots to a maximum of 15
 
 ### Other
-- Adapted to ColorOS dark icons
-- Adapted to membership purchase channels outside mainland China
-- Optimized Metric Pro page logic
-- Optimized log output
+- Fixed incorrect loading of Night resources in theme settings icon preview under dark mode
 
 > We may stop supporting Android 12/12.1 in the near future.

@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.2.0-release",
+    "versionCode": 1091,
+    "publishedAt": "2026-11-07T07:11:57Z",
+    "channel": "release",
+    "note": "## 变更\n\n### 帧率/进程记录\n- 修复图表滑动选点异常\n- 限制线程长截图最多 15 个\n\n### 应用管理\n- 优化 UI 样式、交互及动画\n- 优化 Dex2oat 逻辑和界面\n- 新增多选状态下的搜索按钮\n- 新增批量 Dex2oat 优化\n\n### 其他\n- 修复深色模式下主题设置图标预览误加载 Night 资源\n- 优化异常 SN 判断\n\n---\n\n## Changes\n\n### Frame Rate/Process Recording\n- Fixed abnormal point selection when sliding the chart\n- Limited thread long screenshots to a maximum of 15\n\n### Other\n- Fixed incorrect loading of Night resources in theme settings icon preview under dark mode\n\n> We may stop supporting Android 12/12.1 in the near future.",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.2.0-release"
+  },
+  {
     "versionName": "v2.1.1-release",
     "versionCode": 1084,
     "publishedAt": "2026-11-05T16:28:10Z",
