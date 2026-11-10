@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.2.1-release",
+    "versionCode": 1105,
+    "publishedAt": "2026-11-10T13:48:08Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 建议更新，本次存在服务接口更新，后续会停止兼容\n\n### UI 样式\n- 优化进程管理页面顶栏模糊\n- 优化顶栏标题样式\n- 优化部分图标样式\n\n### 帧率记录\n- 优化帧率采样数据准确性\n- 优化历史记录详情页的记录概览现在会显示过滤后的数据\n- 新增帧率悬浮窗的小数点显示开关\n- 新增丢弃帧统计（Discard）\n- 修复帧率图表开头的缺失\n\n### 其他\n- 优化会员验证，减少部分懂得都懂的用户掉会员\n- 调整设置页分组\n\n---\n\n## Changes\n\n> Update recommended; this release includes service interface updates, and backward compatibility will be discontinued in the future.\n\n### UI Style\n- Optimize the top bar blur on the process management page\n- Optimize the top bar title style\n- Optimize some icon styles\n\n### Frame Rate Recording\n- Optimize the accuracy of frame rate sampling data\n- Optimize the record overview on the history record details page to now display filtered data\n- Add a decimal point display toggle for the frame rate floating window\n- Add discarded frame statistics (Discard)\n- Fix the missing beginning of the frame rate chart\n\n### Other\n- Adjust the grouping on the settings page",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.2.1-release"
+  },
+  {
     "versionName": "v2.2.0-release",
     "versionCode": 1091,
     "publishedAt": "2026-11-07T07:11:57Z",
