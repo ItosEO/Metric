@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.2.2-release",
+    "versionCode": 1126,
+    "publishedAt": "2026-11-13T14:44:47Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 建议更新，本次存在服务接口更新，后续会停止兼容\n\n### 帧率记录\n- 修复帧率图表开头的缺失\n- 修复大量记录下云备份与恢复出现的软件崩溃\n- 优化进入帧率记录页面的流畅度\n- 优化系统功能记录的提示弹窗文本\n- 优化帧率记录删除按钮的样式\n- 新增荣耀风扇状态记录\n\n### UI 设计\n- 移除 CheckBox 的点击涟漪\n- 调整部分图标\n\n### 应用管理\n- 修复 SharedPreferences 设置时组件闪烁\n\n### 刷新率管理\n- 新增屏幕上显示刷新率开关\n- 新增解除刷新率锁定\n- 新增控制中心显示刷新率磁贴\n\n### 其他\n- 移除 Trace 采集\n- 调整 ColorOS 无障碍警告弹窗的配置，改为默认关闭，预计一周内加入官方白名单（建议关闭此选项）\n- 新增记录开始/结束时执行自定义脚本\n- 新增 Perfetto 可视化脚本生成器\n- 新增用户协议与隐私政策\n\n---\n\n## Changes\n\n> Update recommended; this release includes service interface updates, and backward compatibility will be discontinued in the future.\n\n### Frame Rate Recording\n- Fixed the missing beginning of the frame rate chart\n- Fixed software crashes during cloud backup and restore with large numbers of records\n- Optimized the smoothness of entering the frame rate recording page\n- Optimized the prompt popup text for system feature recording\n- Optimized the style of the frame rate recording delete button\n- Added Honor fan status recording\n### UI Design\n- Removed the click ripple of CheckBox\n- Adjusted some icons\n### App Management\n- Fixed component flickering when setting SharedPreferences\n### Refresh Rate Management\n- Added a switch to display the refresh rate on the screen\n- Added unlocking of the refresh rate lock\n- Added a control center tile to display the refresh rate\n### Other\n- Removed Trace collection\n- Adjusted the configuration of the ColorOS accessibility warning popup, changed to disabled by default, expected to be added to the official whitelist within a week (it is recommended to turn off this option)\n- Added execution of custom scripts at the start/end of recording\n- Added a Perfetto visualization script generator\n- Added user agreement and privacy policy",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.2.2-release"
+  },
+  {
     "versionName": "v2.2.1-release",
     "versionCode": 1105,
     "publishedAt": "2026-11-10T13:48:08Z",
