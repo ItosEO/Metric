@@ -1,5 +1,13 @@
 [
   {
+    "versionName": "v2.3.0-release",
+    "versionCode": 1139,
+    "publishedAt": "2026-11-22T10:27:40Z",
+    "channel": "release",
+    "note": "## 变更\n\n> 建议更新，本次存在服务接口更新，后续会停止兼容\n\n### 帧率记录\n- 新增网络延迟/流量记录功能\n- 优化控制中心磁贴记录时的稳定性\n\n### 进程记录\n- 新增导出为 JSON 功能\n\n### 悬浮窗\n- 调整缩放调节最大值到 150%\n\n### 应用管理\n- 优化 Dex2oat 配置 Sheet 样式\n- 修复应用管理顶栏按钮的一些 bug\n\n### 其他\n- 清理冗余代码、废弃组件与无用资源\n- 更新依赖，更好的模糊效果\n\n---\n\n## Changes\n\n> Update recommended; this release includes service interface updates, and backward compatibility will be discontinued in the future.\n\n### Frame Rate Recording\n- Fixed the missing beginning of the frame rate chart\n- Fixed software crashes during cloud backup and restore with large numbers of records\n- Optimized the smoothness of entering the frame rate recording page\n- Optimized the prompt popup text for system feature recording\n- Optimized the style of the frame rate recording delete button\n- Added Honor fan status recording\n### UI Design\n- Removed the click ripple of CheckBox\n- Adjusted some icons\n### App Management\n- Fixed component flickering when setting SharedPreferences\n### Refresh Rate Management\n- Added a switch to display the refresh rate on the screen\n- Added unlocking of the refresh rate lock\n- Added a control center tile to display the refresh rate\n### Other\n- Removed Trace collection\n- Adjusted the configuration of the ColorOS accessibility warning popup, changed to disabled by default, expected to be added to the official whitelist within a week (it is recommended to turn off this option)\n- Added execution of custom scripts at the start/end of recording\n- Added a Perfetto visualization script generator\n- Added user agreement and privacy policy",
+    "releaseUrl": "https://github.com/ItosEO/Metric/releases/tag/v2.3.0-release"
+  },
+  {
     "versionName": "v2.2.2-release",
     "versionCode": 1126,
     "publishedAt": "2026-11-13T14:44:47Z",
