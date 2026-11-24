@@ -2,23 +2,19 @@
 
 > 建议更新，本次存在服务接口更新，后续会停止兼容
 
-### 帧率记录
-- 新增网络延迟/流量记录功能
-- 优化控制中心磁贴记录时的稳定性
+### 帧率/进程记录
+- 调整记录设置 Sheet 样式
 
-### 进程记录
-- 新增导出为 JSON 功能
+### 进程管理
+- 新增安卓应用下可筛选三方、系统应用
 
-### 悬浮窗
-- 调整缩放调节最大值到 150%
-
-### 应用管理
-- 优化 Dex2oat 配置 Sheet 样式
-- 修复应用管理顶栏按钮的一些 bug
-
-### 其他
-- 清理冗余代码、废弃组件与无用资源
-- 更新依赖，更好的模糊效果
+### UI 界面
+- 优化部分图标样式
+- 优化顶栏模糊效果和性能表现
+- 优化顶栏图标边距
+- 修复进入 MemoryInfo 页面时卡顿
+- 新增来自 ChatGPT 的页面切换动画
+- 新增悬浮窗使用无障碍叠加层，更稳定
 
 ---
 
@@ -26,25 +22,16 @@
 
 > Update recommended; this release includes service interface updates, and backward compatibility will be discontinued in the future.
 
-### Frame Rate Recording
-- Fixed the missing beginning of the frame rate chart
-- Fixed software crashes during cloud backup and restore with large numbers of records
-- Optimized the smoothness of entering the frame rate recording page
-- Optimized the prompt popup text for system feature recording
-- Optimized the style of the frame rate recording delete button
-- Added Honor fan status recording
-### UI Design
-- Removed the click ripple of CheckBox
-- Adjusted some icons
-### App Management
-- Fixed component flickering when setting SharedPreferences
-### Refresh Rate Management
-- Added a switch to display the refresh rate on the screen
-- Added unlocking of the refresh rate lock
-- Added a control center tile to display the refresh rate
-### Other
-- Removed Trace collection
-- Adjusted the configuration of the ColorOS accessibility warning popup, changed to disabled by default, expected to be added to the official whitelist within a week (it is recommended to turn off this option)
-- Added execution of custom scripts at the start/end of recording
-- Added a Perfetto visualization script generator
-- Added user agreement and privacy policy
+### Frame rate/process recording
+- Adjusted the recording settings Sheet style
+
+### Process management
+- Added the ability to filter third-party and system apps under Android apps
+
+### UI interface
+- Optimized some icon styles
+- Optimized the top bar blur effect and performance
+- Optimized the top bar icon margins
+- Fixed lag when entering the MemoryInfo page 
+- Added page transition animations from ChatGPT
+- Added the use of accessibility overlay for floating windows, making them more stable
